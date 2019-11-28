@@ -24,8 +24,7 @@ import (
 	"github.com/genuinetools/reg/registry"
 	"github.com/knqyf263/nested"
 	"github.com/opencontainers/go-digest"
-	bolt "github.com/simar7/gokv/bbolt"
-	"github.com/simar7/gokv/encoding"
+	"github.com/simar7/gokv/redis"
 	kvtypes "github.com/simar7/gokv/types"
 	"golang.org/x/xerrors"
 )
@@ -62,11 +61,11 @@ type layer struct {
 
 type Extractor struct {
 	Client *client.Client
-	Cache  *bolt.Store
+	Cache  redis.Store
 	Option types.DockerOption
 }
 
-func NewDockerExtractorWithCache(option types.DockerOption, cacheOptions bolt.Options) (Extractor, error) {
+func NewDockerExtractorWithCache(option types.DockerOption, cacheOptions redis.Options) (Extractor, error) {
 	RegisterRegistry(&gcr.GCR{})
 	RegisterRegistry(&ecr.ECR{})
 
@@ -75,8 +74,8 @@ func NewDockerExtractorWithCache(option types.DockerOption, cacheOptions bolt.Op
 		return Extractor{}, xerrors.Errorf("error initializing docker extractor: %w", err)
 	}
 
-	var kv *bolt.Store
-	if kv, err = bolt.NewStore(cacheOptions); err != nil {
+	var kv redis.Store
+	if kv, err = redis.NewStore(cacheOptions); err != nil {
 		return Extractor{}, xerrors.Errorf("error initializing cache: %w", err)
 	}
 
@@ -88,10 +87,8 @@ func NewDockerExtractorWithCache(option types.DockerOption, cacheOptions bolt.Op
 }
 
 func NewDockerExtractor(option types.DockerOption) (Extractor, error) {
-	return NewDockerExtractorWithCache(option, bolt.Options{
-		RootBucketName: "fanal",
-		Path:           "kv.db",
-		Codec:          encoding.JSON,
+	return NewDockerExtractorWithCache(option, redis.Options{
+		Address: "127.0.0.1:6379", // TODO: This needs to be valid before usage
 	})
 }
 
@@ -382,10 +379,10 @@ func (d Extractor) extractLayerWorker(dig digest.Digest, r *registry.Registry, c
 			w.Flush()
 			w.Close()
 
-			if err := d.Cache.BatchSet(kvtypes.BatchSetItemInput{
+			if err := d.Cache.Set(kvtypes.SetItemInput{
 				BucketName: "layertars",
-				Keys:       []string{string(dig)},
-				Values:     b.Bytes(),
+				Key:        string(dig),
+				Value:      b.Bytes(),
 			}); err != nil {
 				log.Printf("an error occurred while caching: %s\n", err)
 			}
