@@ -12,7 +12,7 @@ import (
 )
 
 type mockDockerExtractor struct {
-	saveLocalImage  func(ctx context.Context, imageName string) (io.Reader, error)
+	saveLocalImage  func(ctx context.Context, imageName string, filenames []string) (io.Reader, error)
 	extractFromFile func(ctx context.Context, r io.Reader, filenames []string) (extractor.FileMap, error)
 	extract         func(ctx context.Context, imageName string, filenames []string) (extractor.FileMap, error)
 }
@@ -31,9 +31,9 @@ func (mde mockDockerExtractor) ExtractFromFile(ctx context.Context, r io.Reader,
 	return extractor.FileMap{}, nil
 }
 
-func (mde mockDockerExtractor) SaveLocalImage(ctx context.Context, imageName string) (io.Reader, error) {
+func (mde mockDockerExtractor) SaveLocalImage(ctx context.Context, imageName string, filenames []string) (io.Reader, error) {
 	if mde.saveLocalImage != nil {
-		return mde.saveLocalImage(ctx, imageName)
+		return mde.saveLocalImage(ctx, imageName, filenames)
 	}
 	return nil, nil
 }
@@ -55,7 +55,7 @@ func (m mockOSAnalyzer) RequiredFiles() []string {
 func TestConfig_Analyze(t *testing.T) {
 	testCases := []struct {
 		name                string
-		saveLocalImageFunc  func(ctx context.Context, imageName string) (io.Reader, error)
+		saveLocalImageFunc  func(ctx context.Context, imageName string, filenames []string) (io.Reader, error)
 		extractFunc         func(ctx context.Context, imageName string, filenames []string) (extractor.FileMap, error)
 		extractFromFileFunc func(ctx context.Context, r io.Reader, filenames []string) (maps extractor.FileMap, e error)
 		expectedError       error
@@ -76,7 +76,7 @@ func TestConfig_Analyze(t *testing.T) {
 		},
 		{
 			name: "happy path with no docker installed or no image found",
-			saveLocalImageFunc: func(ctx context.Context, imageName string) (reader io.Reader, e error) {
+			saveLocalImageFunc: func(ctx context.Context, imageName string, filenames []string) (reader io.Reader, e error) {
 				return nil, errors.New("couldn't save local image")
 			},
 			extractFunc: func(ctx context.Context, imageName string, filenames []string) (maps extractor.FileMap, e error) {

@@ -167,8 +167,9 @@ func (d Extractor) createRegistryClient(ctx context.Context, domain string) (*re
 	})
 }
 
-func (d Extractor) SaveLocalImage(ctx context.Context, imageName string) (io.Reader, error) {
+func (d Extractor) SaveLocalImage(ctx context.Context, imageName string, filenames []string) (io.Reader, error) {
 	var storedReader io.Reader
+	var cacheBuf bytes.Buffer
 
 	var storedImageBytes []byte
 	found, err := d.Cache.Get(kvtypes.GetItemInput{
@@ -188,24 +189,38 @@ func (d Extractor) SaveLocalImage(ctx context.Context, imageName string) (io.Rea
 		found = false
 	}
 
-	var savedImage []byte
+	//var savedImage []byte
 	if err != nil || !found {
 		storedReader, err = d.saveLocalImage(ctx, imageName)
 		if err != nil {
 			return nil, xerrors.Errorf("failed to save the image: %w", err)
 		}
 
-		savedImage, err = ioutil.ReadAll(storedReader)
-		if err != nil {
-			return nil, xerrors.Errorf("failed to read saved image: %w", err)
+		//savedImage, err = ioutil.ReadAll(storedReader)
+		//if err != nil {
+		//	return nil, xerrors.Errorf("failed to read saved image: %w", err)
+		//}
+
+		//bb, _ := ioutil.ReadAll(storedReader)
+		//ioutil.WriteFile("filedownload", bb, 0600)
+		//panic("oof")
+
+		log.Println(">>> not found, req files names: ", filenames)
+		if len(filenames) > 0 {
+			if cacheBuf, err = getFilteredTarballBuffer(tar.NewReader(storedReader), filenames); err != nil {
+				//errCh <- err
+				return nil, err
+			}
 		}
+		log.Println(">>> saving cachebuf of len: ", len(cacheBuf.Bytes()))
 
 		e, err := zstd.NewWriter(nil, zstd.WithEncoderLevel(zstd.SpeedFastest))
 		if err != nil {
 			return nil, err
 		}
 
-		dst := e.EncodeAll(savedImage, nil)
+		//dst := e.EncodeAll(savedImage, nil)
+		dst := e.EncodeAll(cacheBuf.Bytes(), nil)
 		if err := d.Cache.BatchSet(kvtypes.BatchSetItemInput{
 			BucketName: "imagebucket",
 			Keys:       []string{imageName},
@@ -215,7 +230,8 @@ func (d Extractor) SaveLocalImage(ctx context.Context, imageName string) (io.Rea
 		}
 	}
 
-	return bytes.NewReader(savedImage), nil
+	//return bytes.NewReader(savedImage), nil
+	return bytes.NewReader(cacheBuf.Bytes()), nil
 }
 
 func (d Extractor) saveLocalImage(ctx context.Context, imageName string) (io.ReadCloser, error) {
@@ -395,6 +411,14 @@ func getFilteredTarballBuffer(tr *tar.Reader, requiredFilenames []string) (bytes
 		if err != nil {
 			return cacheBuf, xerrors.Errorf("%s: invalid tar: %w", ErrFailedCacheWrite, err)
 		}
+
+		//log.Println(">>> file: ", hdr.Name)
+		//
+		//if strings.Contains(hdr.Name, ".tar") {
+		//	log.Println(">>> found: ", hdr.Name)
+		//	return getFilteredTarballBuffer(tr, requiredFilenames)
+		//}
+
 		if !utils.StringInSlice(hdr.Name, requiredFilenames) {
 			continue
 		}
