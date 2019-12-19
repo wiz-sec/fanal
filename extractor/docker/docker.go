@@ -189,37 +189,23 @@ func (d Extractor) SaveLocalImage(ctx context.Context, imageName string, filenam
 		found = false
 	}
 
-	//var savedImage []byte
 	if err != nil || !found {
 		storedReader, err = d.saveLocalImage(ctx, imageName)
 		if err != nil {
 			return nil, xerrors.Errorf("failed to save the image: %w", err)
 		}
 
-		//savedImage, err = ioutil.ReadAll(storedReader)
-		//if err != nil {
-		//	return nil, xerrors.Errorf("failed to read saved image: %w", err)
-		//}
-
-		//bb, _ := ioutil.ReadAll(storedReader)
-		//ioutil.WriteFile("filedownload", bb, 0600)
-		//panic("oof")
-
-		log.Println(">>> not found, req files names: ", filenames)
 		if len(filenames) > 0 {
 			if cacheBuf, err = getFilteredTarballBuffer(tar.NewReader(storedReader), filenames); err != nil {
-				//errCh <- err
 				return nil, err
 			}
 		}
-		log.Println(">>> saving cachebuf of len: ", len(cacheBuf.Bytes()))
 
 		e, err := zstd.NewWriter(nil, zstd.WithEncoderLevel(zstd.SpeedFastest))
 		if err != nil {
 			return nil, err
 		}
 
-		//dst := e.EncodeAll(savedImage, nil)
 		dst := e.EncodeAll(cacheBuf.Bytes(), nil)
 		if err := d.Cache.BatchSet(kvtypes.BatchSetItemInput{
 			BucketName: "imagebucket",
@@ -230,7 +216,6 @@ func (d Extractor) SaveLocalImage(ctx context.Context, imageName string, filenam
 		}
 	}
 
-	//return bytes.NewReader(savedImage), nil
 	return bytes.NewReader(cacheBuf.Bytes()), nil
 }
 
@@ -412,12 +397,26 @@ func getFilteredTarballBuffer(tr *tar.Reader, requiredFilenames []string) (bytes
 			return cacheBuf, xerrors.Errorf("%s: invalid tar: %w", ErrFailedCacheWrite, err)
 		}
 
-		//log.Println(">>> file: ", hdr.Name)
-		//
-		//if strings.Contains(hdr.Name, ".tar") {
-		//	log.Println(">>> found: ", hdr.Name)
-		//	return getFilteredTarballBuffer(tr, requiredFilenames)
-		//}
+		// find any nested tars
+		if strings.HasSuffix(hdr.Name, ".tar") {
+			rbuf, err := getFilteredTarballBuffer(tar.NewReader(tr), requiredFilenames)
+			if err != nil { // TODO: Untested
+				return cacheBuf, err
+			}
+			if rbuf.Len() > 0 {
+				hdrtwc := &tar.Header{
+					Name: hdr.Name,
+					Mode: 0600,
+					Size: int64(rbuf.Len()),
+				}
+
+				if err := twc.WriteHeader(hdrtwc); err != nil { // TODO: Untested
+					return cacheBuf, xerrors.Errorf("%s: %s", ErrFailedCacheWrite, err)
+				}
+				_, _ = twc.Write(rbuf.Bytes())
+			}
+			continue
+		}
 
 		if !utils.StringInSlice(hdr.Name, requiredFilenames) {
 			continue

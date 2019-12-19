@@ -116,6 +116,8 @@ func RequiredFilenames() []string {
 // TODO: Remove opts as they're no longer needed
 func (ac Config) Analyze(ctx context.Context, imageName string, opts ...types.DockerOption) (fileMap extractor.FileMap, err error) {
 	//r, err := ac.Extractor.SaveLocalImage(ctx, imageName)
+	// TODO: fix this to generic names
+	AddRequiredFilenames([]string{"manifest.json", "775349758637aff77bf85e2ff0597e86e3e859183ef0baba8b3e8fc8d3cba51c.json"})
 	r, err := ac.Extractor.SaveLocalImage(ctx, imageName, RequiredFilenames())
 	if err != nil {
 		// when no docker daemon is installed or no image exists in the local machine
