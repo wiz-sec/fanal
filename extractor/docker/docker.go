@@ -205,7 +205,7 @@ func (d Extractor) SaveLocalImage(ctx context.Context, imageName string) (io.Rea
 			return nil, err
 		}
 
-		fmt.Println(">>> cb.Bytes()", cb.Bytes())
+		//fmt.Println(">>> cb.Bytes()", cb.Bytes())
 		dst := e.EncodeAll(cb.Bytes(), nil)
 		if err := d.cache.Set(KVImageBucket, imageName, dst); err != nil {
 			log.Println(err)
