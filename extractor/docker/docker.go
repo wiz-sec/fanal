@@ -7,6 +7,7 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -151,6 +152,20 @@ func (d Extractor) createRegistryClient(ctx context.Context, domain string) (*re
 	})
 }
 
+type customBuf struct {
+	bigbytes []byte
+}
+
+func (cb *customBuf) Write(p []byte) (int, error) {
+	cb.bigbytes = append(cb.bigbytes, p...)
+	fmt.Println(">>> wrote: ", len(p))
+	return len(p), nil
+}
+
+func (cb customBuf) Bytes() []byte {
+	return cb.bigbytes
+}
+
 func (d Extractor) SaveLocalImage(ctx context.Context, imageName string) (io.Reader, error) {
 	var storedReader io.Reader
 
@@ -168,30 +183,36 @@ func (d Extractor) SaveLocalImage(ctx context.Context, imageName string) (io.Rea
 		found = false
 	}
 
-	var savedImage []byte
+	//var savedImage []byte
+	cb := &customBuf{}
 	if err != nil || !found {
 		storedReader, err = d.saveLocalImage(ctx, imageName)
 		if err != nil {
 			return nil, xerrors.Errorf("failed to save the image: %w", err)
 		}
 
-		savedImage, err = ioutil.ReadAll(storedReader)
-		if err != nil {
-			return nil, xerrors.Errorf("failed to read saved image: %w", err)
-		}
+		n, err := io.Copy(cb, storedReader)
+		fmt.Println(">>> err: ", err)
+		fmt.Println(">>> copied: ", n)
+
+		//savedImage, err = ioutil.ReadAll(storedReader)
+		//if err != nil {
+		//	return nil, xerrors.Errorf("failed to read saved image: %w", err)
+		//}
 
 		e, err := zstd.NewWriter(nil, zstd.WithEncoderLevel(zstd.SpeedFastest))
 		if err != nil {
 			return nil, err
 		}
 
-		dst := e.EncodeAll(savedImage, nil)
+		fmt.Println(">>> cb.Bytes()", cb.Bytes())
+		dst := e.EncodeAll(cb.Bytes(), nil)
 		if err := d.cache.Set(KVImageBucket, imageName, dst); err != nil {
 			log.Println(err)
 		}
 	}
 
-	return bytes.NewReader(savedImage), nil
+	return bytes.NewReader(cb.Bytes()), nil
 }
 
 func (d Extractor) saveLocalImage(ctx context.Context, imageName string) (io.ReadCloser, error) {
