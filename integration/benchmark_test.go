@@ -1,5 +1,3 @@
-// +build integration
-
 package integration
 
 import (
@@ -206,7 +204,7 @@ func BenchmarkFanal_Library_DockerMode_10(b *testing.B) {
 			require.NoError(b, err, tc.name)
 			ac := analyzer.Config{Extractor: ext}
 
-			b.ReportAllocs()
+			//b.ReportAllocs()
 			b.ResetTimer()
 			// run tests twice, one without cache and with cache
 			for i := 1; i <= 2; i++ {
