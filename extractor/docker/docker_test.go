@@ -29,7 +29,6 @@ func TestApplyLayers(t *testing.T) {
 			inputLayers: []types.LayerInfo{
 				{
 					SchemaVersion: 1,
-					ID:            "sha256:932da51564135c98a49a34a193d6cd363d8fa4184d957fde16c9d8527b3f3b02",
 					OS: &types.OS{
 						Family: "alpine",
 						Name:   "3.10",
@@ -50,24 +49,20 @@ func TestApplyLayers(t *testing.T) {
 						{
 							Type:     "gem",
 							FilePath: "app/Gemfile.lock",
-							Libraries: []types.LibraryInfo{
+							Libraries: []godeptypes.Library{
 								{
-									Library: godeptypes.Library{
-										Name:    "gemlibrary1",
-										Version: "1.2.3",
-									},
+									Name:    "gemlibrary1",
+									Version: "1.2.3",
 								},
 							},
 						},
 						{
 							Type:     "composer",
 							FilePath: "app/composer.lock",
-							Libraries: []types.LibraryInfo{
+							Libraries: []godeptypes.Library{
 								{
-									Library: godeptypes.Library{
-										Name:    "phplibrary1",
-										Version: "6.6.6",
-									},
+									Name:    "phplibrary1",
+									Version: "6.6.6",
 								},
 							},
 						},
@@ -75,7 +70,6 @@ func TestApplyLayers(t *testing.T) {
 				},
 				{
 					SchemaVersion: 1,
-					ID:            "sha256:24df0d4e20c0f42d3703bf1f1db2bdd77346c7956f74f423603d651e8e5ae8a7",
 					PackageInfos: []types.PackageInfo{
 						{
 							FilePath: "lib/apk/db/installed",
@@ -106,26 +100,21 @@ func TestApplyLayers(t *testing.T) {
 						Name:    "musl",
 						Version: "1.2.4",
 						Release: "4.5.7",
-						LayerID: "sha256:24df0d4e20c0f42d3703bf1f1db2bdd77346c7956f74f423603d651e8e5ae8a7",
 					},
 					{
 						Name:    "openssl",
 						Version: "1.2.3",
 						Release: "4.5.6",
-						LayerID: "sha256:24df0d4e20c0f42d3703bf1f1db2bdd77346c7956f74f423603d651e8e5ae8a7",
 					},
 				},
 				Applications: []types.Application{
 					{
 						Type:     "gem",
 						FilePath: "app/Gemfile.lock",
-						Libraries: []types.LibraryInfo{
+						Libraries: []godeptypes.Library{
 							{
-								Library: godeptypes.Library{
-									Name:    "gemlibrary1",
-									Version: "1.2.3",
-								},
-								LayerID: "sha256:932da51564135c98a49a34a193d6cd363d8fa4184d957fde16c9d8527b3f3b02",
+								Name:    "gemlibrary1",
+								Version: "1.2.3",
 							},
 						},
 					},
@@ -137,7 +126,6 @@ func TestApplyLayers(t *testing.T) {
 			inputLayers: []types.LayerInfo{
 				{
 					SchemaVersion: 1,
-					ID:            "sha256:24df0d4e20c0f42d3703bf1f1db2bdd77346c7956f74f423603d651e8e5ae8a7",
 					OS: &types.OS{
 						Family: "debian",
 						Name:   "8",
@@ -158,12 +146,10 @@ func TestApplyLayers(t *testing.T) {
 						{
 							Type:     "composer",
 							FilePath: "app/composer.lock",
-							Libraries: []types.LibraryInfo{
+							Libraries: []godeptypes.Library{
 								{
-									Library: godeptypes.Library{
-										Name:    "phplibrary1",
-										Version: "6.6.6",
-									},
+									Name:    "phplibrary1",
+									Version: "6.6.6",
 								},
 							},
 						},
@@ -171,7 +157,6 @@ func TestApplyLayers(t *testing.T) {
 				},
 				{
 					SchemaVersion: 1,
-					ID:            "sha256:932da51564135c98a49a34a193d6cd363d8fa4184d957fde16c9d8527b3f3b02",
 					PackageInfos: []types.PackageInfo{
 						{
 							FilePath: "var/lib/dpkg/status.d/libc",
@@ -194,13 +179,11 @@ func TestApplyLayers(t *testing.T) {
 				},
 				Packages: []types.Package{
 					{
-						LayerID: "sha256:932da51564135c98a49a34a193d6cd363d8fa4184d957fde16c9d8527b3f3b02",
 						Name:    "libc",
 						Version: "1.2.4",
 						Release: "4.5.7",
 					},
 					{
-						LayerID: "sha256:24df0d4e20c0f42d3703bf1f1db2bdd77346c7956f74f423603d651e8e5ae8a7",
 						Name:    "openssl",
 						Version: "1.2.3",
 						Release: "4.5.6",
@@ -285,9 +268,8 @@ func TestExtractor_ExtractLayerFiles(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			d, cleanup, err := NewDockerArchiveExtractor(context.Background(), tt.imagePath, types.DockerOption{})
+			d, err := NewDockerArchiveExtractor(context.Background(), tt.imagePath, types.DockerOption{})
 			require.NoError(t, err)
-			defer cleanup()
 
 			actualDigest, actualFileMap, actualOpqDirs, actualWhFiles, err := d.ExtractLayerFiles(tt.args.ctx, tt.args.dig, tt.args.filenames)
 			if tt.wantErr != "" {

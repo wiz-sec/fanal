@@ -8,8 +8,7 @@
     "SrcName": "ncurses",
     "SrcVersion": "6.1",
     "SrcRelease": "7.20180224.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "publicsuffix-list-dafsa",
@@ -20,8 +19,7 @@
     "SrcName": "publicsuffix-list",
     "SrcVersion": "20180723",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "pcre2",
@@ -32,8 +30,7 @@
     "SrcName": "pcre2",
     "SrcVersion": "10.32",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "setup",
@@ -44,8 +41,7 @@
     "SrcName": "setup",
     "SrcVersion": "2.12.2",
     "SrcRelease": "2.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "basesystem",
@@ -56,8 +52,7 @@
     "SrcName": "basesystem",
     "SrcVersion": "11",
     "SrcRelease": "5.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libselinux",
@@ -68,8 +63,7 @@
     "SrcName": "libselinux",
     "SrcVersion": "2.8",
     "SrcRelease": "6.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "bash",
@@ -80,8 +74,7 @@
     "SrcName": "bash",
     "SrcVersion": "4.4.19",
     "SrcRelease": "8.el8_0",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "glibc",
@@ -92,8 +85,7 @@
     "SrcName": "glibc",
     "SrcVersion": "2.28",
     "SrcRelease": "42.0.1.el8_0.1",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "zlib",
@@ -104,8 +96,7 @@
     "SrcName": "zlib",
     "SrcVersion": "1.2.11",
     "SrcRelease": "10.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "info",
@@ -116,8 +107,7 @@
     "SrcName": "texinfo",
     "SrcVersion": "6.5",
     "SrcRelease": "4.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "bzip2-libs",
@@ -128,8 +118,7 @@
     "SrcName": "bzip2",
     "SrcVersion": "1.0.6",
     "SrcRelease": "26.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libcom_err",
@@ -140,8 +129,7 @@
     "SrcName": "e2fsprogs",
     "SrcVersion": "1.44.3",
     "SrcRelease": "2.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libffi",
@@ -152,8 +140,7 @@
     "SrcName": "libffi",
     "SrcVersion": "3.1",
     "SrcRelease": "18.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libxml2",
@@ -164,8 +151,7 @@
     "SrcName": "libxml2",
     "SrcVersion": "2.9.7",
     "SrcRelease": "5.0.1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libidn2",
@@ -176,8 +162,7 @@
     "SrcName": "libidn2",
     "SrcVersion": "2.0.5",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "readline",
@@ -188,8 +173,7 @@
     "SrcName": "readline",
     "SrcVersion": "7.0",
     "SrcRelease": "10.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libassuan",
@@ -200,8 +184,7 @@
     "SrcName": "libassuan",
     "SrcVersion": "2.5.1",
     "SrcRelease": "3.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "elfutils-libelf",
@@ -212,8 +195,7 @@
     "SrcName": "elfutils",
     "SrcVersion": "0.174",
     "SrcRelease": "6.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "lua-libs",
@@ -224,8 +206,7 @@
     "SrcName": "lua",
     "SrcVersion": "5.3.4",
     "SrcRelease": "10.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libacl",
@@ -236,8 +217,7 @@
     "SrcName": "acl",
     "SrcVersion": "2.2.53",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "sed",
@@ -248,8 +228,7 @@
     "SrcName": "sed",
     "SrcVersion": "4.5",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "grep",
@@ -260,8 +239,7 @@
     "SrcName": "grep",
     "SrcVersion": "3.1",
     "SrcRelease": "6.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libtasn1",
@@ -272,8 +250,7 @@
     "SrcName": "libtasn1",
     "SrcVersion": "4.13",
     "SrcRelease": "3.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "lz4-libs",
@@ -284,8 +261,7 @@
     "SrcName": "lz4",
     "SrcVersion": "1.8.1.2",
     "SrcRelease": "4.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libmount",
@@ -296,8 +272,7 @@
     "SrcName": "util-linux",
     "SrcVersion": "2.32.1",
     "SrcRelease": "8.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "gobject-introspection",
@@ -308,8 +283,7 @@
     "SrcName": "gobject-introspection",
     "SrcVersion": "1.56.1",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "systemd-libs",
@@ -320,8 +294,7 @@
     "SrcName": "systemd",
     "SrcVersion": "239",
     "SrcRelease": "13.0.1.el8_0.5",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "chkconfig",
@@ -332,8 +305,7 @@
     "SrcName": "chkconfig",
     "SrcVersion": "1.11",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "ca-certificates",
@@ -344,8 +316,7 @@
     "SrcName": "ca-certificates",
     "SrcVersion": "2018.2.24",
     "SrcRelease": "6.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libdb",
@@ -356,8 +327,7 @@
     "SrcName": "libdb",
     "SrcVersion": "5.3.28",
     "SrcRelease": "36.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libarchive",
@@ -368,8 +338,7 @@
     "SrcName": "libarchive",
     "SrcVersion": "3.3.2",
     "SrcRelease": "3.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "mpfr",
@@ -380,8 +349,7 @@
     "SrcName": "mpfr",
     "SrcVersion": "3.1.6",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "gnutls",
@@ -392,8 +360,7 @@
     "SrcName": "gnutls",
     "SrcVersion": "3.6.5",
     "SrcRelease": "2.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "expat",
@@ -404,8 +371,7 @@
     "SrcName": "expat",
     "SrcVersion": "2.2.5",
     "SrcRelease": "3.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "json-c",
@@ -416,8 +382,7 @@
     "SrcName": "json-c",
     "SrcVersion": "0.13.1",
     "SrcRelease": "0.2.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "brotli",
@@ -428,8 +393,7 @@
     "SrcName": "brotli",
     "SrcVersion": "1.0.6",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "npth",
@@ -440,8 +404,7 @@
     "SrcName": "npth",
     "SrcVersion": "1.5",
     "SrcRelease": "4.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libnghttp2",
@@ -452,8 +415,7 @@
     "SrcName": "nghttp2",
     "SrcVersion": "1.33.0",
     "SrcRelease": "1.el8_0.1",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libyaml",
@@ -464,8 +426,7 @@
     "SrcName": "libyaml",
     "SrcVersion": "0.1.7",
     "SrcRelease": "5.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libsigsegv",
@@ -476,8 +437,7 @@
     "SrcName": "libsigsegv",
     "SrcVersion": "2.11",
     "SrcRelease": "5.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "krb5-libs",
@@ -488,8 +448,7 @@
     "SrcName": "krb5",
     "SrcVersion": "1.16.1",
     "SrcRelease": "22.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "cyrus-sasl-lib",
@@ -500,8 +459,7 @@
     "SrcName": "cyrus-sasl",
     "SrcVersion": "2.1.27",
     "SrcRelease": "0.3rc7.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libcurl",
@@ -512,8 +470,7 @@
     "SrcName": "curl",
     "SrcVersion": "7.61.1",
     "SrcRelease": "8.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "gnupg2",
@@ -524,8 +481,7 @@
     "SrcName": "gnupg2",
     "SrcVersion": "2.2.9",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "librepo",
@@ -536,8 +492,7 @@
     "SrcName": "librepo",
     "SrcVersion": "1.9.2",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "audit-libs",
@@ -548,8 +503,7 @@
     "SrcName": "audit",
     "SrcVersion": "3.0",
     "SrcRelease": "0.10.20180831git0047a6c.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "rpm",
@@ -560,8 +514,7 @@
     "SrcName": "rpm",
     "SrcVersion": "4.14.2",
     "SrcRelease": "11.el8_0",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libdnf",
@@ -572,8 +525,7 @@
     "SrcName": "libdnf",
     "SrcVersion": "0.22.5",
     "SrcRelease": "5.0.2.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "oraclelinux-release-el8",
@@ -584,8 +536,7 @@
     "SrcName": "oraclelinux-release-el8",
     "SrcVersion": "1.0",
     "SrcRelease": "4.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libgcc",
@@ -596,8 +547,7 @@
     "SrcName": "gcc",
     "SrcVersion": "8.2.1",
     "SrcRelease": "3.5.0.1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "tzdata",
@@ -608,8 +558,7 @@
     "SrcName": "tzdata",
     "SrcVersion": "2019c",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "redhat-release",
@@ -620,8 +569,7 @@
     "SrcName": "redhat-release",
     "SrcVersion": "8.0",
     "SrcRelease": "0.44.0.1.el8",
-    "SrcEpoch": 2,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 2
   },
   {
     "Name": "oraclelinux-release",
@@ -632,8 +580,7 @@
     "SrcName": "oraclelinux-release",
     "SrcVersion": "8.0",
     "SrcRelease": "1.0.14.el8",
-    "SrcEpoch": 8,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 8
   },
   {
     "Name": "filesystem",
@@ -644,8 +591,7 @@
     "SrcName": "filesystem",
     "SrcVersion": "3.8",
     "SrcRelease": "2.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "ncurses-libs",
@@ -656,8 +602,7 @@
     "SrcName": "ncurses",
     "SrcVersion": "6.1",
     "SrcRelease": "7.20180224.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "glibc-minimal-langpack",
@@ -668,8 +613,7 @@
     "SrcName": "glibc",
     "SrcVersion": "2.28",
     "SrcRelease": "42.0.1.el8_0.1",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "glibc-common",
@@ -680,8 +624,7 @@
     "SrcName": "glibc",
     "SrcVersion": "2.28",
     "SrcRelease": "42.0.1.el8_0.1",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libsepol",
@@ -692,8 +635,7 @@
     "SrcName": "libsepol",
     "SrcVersion": "2.8",
     "SrcRelease": "2.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libgpg-error",
@@ -704,8 +646,7 @@
     "SrcName": "libgpg-error",
     "SrcVersion": "1.31",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "xz-libs",
@@ -716,8 +657,7 @@
     "SrcName": "xz",
     "SrcVersion": "5.2.4",
     "SrcRelease": "3.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "gmp",
@@ -728,8 +668,7 @@
     "SrcName": "gmp",
     "SrcVersion": "6.1.2",
     "SrcRelease": "8.el8",
-    "SrcEpoch":1,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 1
   },
   {
     "Name": "libcap",
@@ -740,8 +679,7 @@
     "SrcName": "libcap",
     "SrcVersion": "2.25",
     "SrcRelease": "9.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "p11-kit",
@@ -752,8 +690,7 @@
     "SrcName": "p11-kit",
     "SrcVersion": "0.23.14",
     "SrcRelease": "5.el8_0",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libunistring",
@@ -764,8 +701,7 @@
     "SrcName": "libunistring",
     "SrcVersion": "0.9.9",
     "SrcRelease": "3.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "popt",
@@ -776,8 +712,7 @@
     "SrcName": "popt",
     "SrcVersion": "1.16",
     "SrcRelease": "14.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libgcrypt",
@@ -788,8 +723,7 @@
     "SrcName": "libgcrypt",
     "SrcVersion": "1.8.3",
     "SrcRelease": "2.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "sqlite-libs",
@@ -800,8 +734,7 @@
     "SrcName": "sqlite",
     "SrcVersion": "3.26.0",
     "SrcRelease": "3.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libuuid",
@@ -812,8 +745,7 @@
     "SrcName": "util-linux",
     "SrcVersion": "2.32.1",
     "SrcRelease": "8.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libattr",
@@ -824,8 +756,7 @@
     "SrcName": "attr",
     "SrcVersion": "2.4.48",
     "SrcRelease": "3.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "coreutils-single",
@@ -836,8 +767,7 @@
     "SrcName": "coreutils",
     "SrcVersion": "8.30",
     "SrcRelease": "6.0.1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "pcre",
@@ -848,8 +778,7 @@
     "SrcName": "pcre",
     "SrcVersion": "8.42",
     "SrcRelease": "4.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "crypto-policies",
@@ -860,8 +789,7 @@
     "SrcName": "crypto-policies",
     "SrcVersion": "20181217",
     "SrcRelease": "6.git9a35207.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libsmartcols",
@@ -872,8 +800,7 @@
     "SrcName": "util-linux",
     "SrcVersion": "2.32.1",
     "SrcRelease": "8.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libblkid",
@@ -884,8 +811,7 @@
     "SrcName": "util-linux",
     "SrcVersion": "2.32.1",
     "SrcRelease": "8.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "glib2",
@@ -896,8 +822,7 @@
     "SrcName": "glib2",
     "SrcVersion": "2.56.4",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libpeas",
@@ -908,8 +833,7 @@
     "SrcName": "libpeas",
     "SrcVersion": "1.22.0",
     "SrcRelease": "6.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libusbx",
@@ -920,8 +844,7 @@
     "SrcName": "libusbx",
     "SrcVersion": "1.0.22",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "p11-kit-trust",
@@ -932,8 +855,7 @@
     "SrcName": "p11-kit",
     "SrcVersion": "0.23.14",
     "SrcRelease": "5.el8_0",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "openssl-libs",
@@ -944,8 +866,7 @@
     "SrcName": "openssl",
     "SrcVersion": "1.1.1",
     "SrcRelease": "8.0.1.el8",
-    "SrcEpoch":1,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 1
   },
   {
     "Name": "libdb-utils",
@@ -956,8 +877,7 @@
     "SrcName": "libdb",
     "SrcVersion": "5.3.28",
     "SrcRelease": "36.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libpsl",
@@ -968,8 +888,7 @@
     "SrcName": "libpsl",
     "SrcVersion": "0.20.2",
     "SrcRelease": "5.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "nettle",
@@ -980,8 +899,7 @@
     "SrcName": "nettle",
     "SrcVersion": "3.4.1",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libksba",
@@ -992,8 +910,7 @@
     "SrcName": "libksba",
     "SrcVersion": "1.3.5",
     "SrcRelease": "7.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libmetalink",
@@ -1004,8 +921,7 @@
     "SrcName": "libmetalink",
     "SrcVersion": "0.1.3",
     "SrcRelease": "7.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "keyutils-libs",
@@ -1016,8 +932,7 @@
     "SrcName": "keyutils",
     "SrcVersion": "1.5.10",
     "SrcRelease": "6.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libstdc++",
@@ -1028,8 +943,7 @@
     "SrcName": "gcc",
     "SrcVersion": "8.2.1",
     "SrcRelease": "3.5.0.1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libverto",
@@ -1040,8 +954,7 @@
     "SrcName": "libverto",
     "SrcVersion": "0.3.0",
     "SrcRelease": "5.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libxcrypt",
@@ -1052,8 +965,7 @@
     "SrcName": "libxcrypt",
     "SrcVersion": "4.1.1",
     "SrcRelease": "4.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libmodulemd1",
@@ -1064,8 +976,7 @@
     "SrcName": "libmodulemd",
     "SrcVersion": "2.0.0",
     "SrcRelease": "5.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "gawk",
@@ -1076,8 +987,7 @@
     "SrcName": "gawk",
     "SrcVersion": "4.2.1",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libssh",
@@ -1088,8 +998,7 @@
     "SrcName": "libssh",
     "SrcVersion": "0.8.5",
     "SrcRelease": "2.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "openldap",
@@ -1100,8 +1009,7 @@
     "SrcName": "openldap",
     "SrcVersion": "2.4.46",
     "SrcRelease": "9.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "curl",
@@ -1112,8 +1020,7 @@
     "SrcName": "curl",
     "SrcVersion": "7.61.1",
     "SrcRelease": "8.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "gpgme",
@@ -1124,8 +1031,7 @@
     "SrcName": "gpgme",
     "SrcVersion": "1.10.0",
     "SrcRelease": "6.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libcap-ng",
@@ -1136,8 +1042,7 @@
     "SrcName": "libcap-ng",
     "SrcVersion": "0.7.9",
     "SrcRelease": "4.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "rpm-libs",
@@ -1148,8 +1053,7 @@
     "SrcName": "rpm",
     "SrcVersion": "4.14.2",
     "SrcRelease": "11.el8_0",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "libsolv",
@@ -1160,8 +1064,7 @@
     "SrcName": "libsolv",
     "SrcVersion": "0.6.35",
     "SrcRelease": "6.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "microdnf",
@@ -1172,8 +1075,7 @@
     "SrcName": "microdnf",
     "SrcVersion": "3.0.1",
     "SrcRelease": "1.el8",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   },
   {
     "Name": "gpg-pubkey",
@@ -1184,7 +1086,6 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:e3196b7450602f5547c52d197255dfa96a006ea9c52c19bf3ba2d5412a4b161e"
+    "SrcEpoch": 0
   }
 ]

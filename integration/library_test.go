@@ -152,11 +152,10 @@ func TestFanal_Library_DockerMode(t *testing.T) {
 			err = cli.ImageTag(ctx, tc.imageName, tc.imageFile)
 			require.NoError(t, err, tc.name)
 
-			ext, cleanup, err := docker.NewDockerExtractor(ctx, tc.imageFile, opt)
+			ext, err := docker.NewDockerExtractor(ctx, tc.imageFile, opt)
 			require.NoError(t, err)
-			defer cleanup()
-
 			ac := analyzer.New(ext, c)
+
 			applier := analyzer.NewApplier(c)
 
 			// run tests twice, one without cache and with cache
@@ -205,10 +204,8 @@ func TestFanal_Library_TarMode(t *testing.T) {
 				SkipPing: true,
 			}
 
-			ext, cleanup, err := docker.NewDockerArchiveExtractor(ctx, tc.imageFile, opt)
+			ext, err := docker.NewDockerArchiveExtractor(ctx, tc.imageFile, opt)
 			require.NoError(t, err)
-			defer cleanup()
-
 			ac := analyzer.New(ext, c)
 			runChecks(t, ctx, ac, applier, tc)
 

@@ -8,8 +8,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "busybox",
@@ -20,8 +19,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "alpine-baselayout",
@@ -32,8 +30,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "alpine-keys",
@@ -44,8 +41,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "openssl",
@@ -56,8 +52,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "libcrypto1.1",
@@ -68,8 +63,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "libssl1.1",
@@ -80,8 +74,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "ca-certificates",
@@ -92,8 +85,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "ca-certificates-cacert",
@@ -104,8 +96,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "libtls-standalone",
@@ -116,8 +107,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "ssl_client",
@@ -128,8 +118,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "zlib",
@@ -140,8 +129,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "apk-tools",
@@ -152,8 +140,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "pax-utils",
@@ -164,8 +151,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "scanelf",
@@ -176,8 +162,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "musl-utils",
@@ -188,8 +173,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "libc-dev",
@@ -200,8 +184,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   },
   {
     "Name": "libc-utils",
@@ -212,7 +195,6 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:03901b4a2ea88eeaad62dbe59b072b28b6efa00491962b8741081c5df50c65e0"
+    "SrcEpoch": 0
   }
 ]

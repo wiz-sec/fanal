@@ -114,18 +114,14 @@ func TestFSCache_GetLayer(t *testing.T) {
 					{
 						Type:     "composer",
 						FilePath: "php-app/composer.lock",
-						Libraries: []types.LibraryInfo{
+						Libraries: []depTypes.Library{
 							{
-								Library: depTypes.Library{
-									Name:    "guzzlehttp/guzzle",
-									Version: "6.2.0",
-								},
+								Name:    "guzzlehttp/guzzle",
+								Version: "6.2.0",
 							},
 							{
-								Library: depTypes.Library{
-									Name:    "guzzlehttp/promises",
-									Version: "v1.3.1",
-								},
+								Name:    "guzzlehttp/promises",
+								Version: "v1.3.1",
 							},
 						},
 					},
@@ -219,19 +215,9 @@ func TestFSCache_PutLayer(t *testing.T) {
 						{
 							Type:     "composer",
 							FilePath: "php-app/composer.lock",
-							Libraries: []types.LibraryInfo{
-								{
-									Library: depTypes.Library{
-										Name:    "guzzlehttp/guzzle",
-										Version: "6.2.0",
-									},
-								},
-								{
-									Library: depTypes.Library{
-										Name:    "guzzlehttp/promises",
-										Version: "v1.3.1",
-									},
-								},
+							Libraries: []depTypes.Library{
+								{Name: "guzzlehttp/guzzle", Version: "6.2.0"},
+								{Name: "guzzlehttp/promises", Version: "v1.3.1"},
 							},
 						},
 					},
@@ -262,18 +248,14 @@ func TestFSCache_PutLayer(t *testing.T) {
 				      "Type": "composer",
 				      "FilePath": "php-app/composer.lock",
 				      "Libraries": [
-                        {
-                           "Library":{
-                              "Name":"guzzlehttp/guzzle",
-                              "Version":"6.2.0"
-                           }
-                        },
-                        {
-                           "Library":{
-                              "Name":"guzzlehttp/promises",
-                              "Version":"v1.3.1"
-                           }
-                        }
+				        {
+				          "Name": "guzzlehttp/guzzle",
+				          "Version": "6.2.0"
+				        },
+				        {
+				          "Name": "guzzlehttp/promises",
+				          "Version": "v1.3.1"
+				        }
 				      ]
 				    }
 				  ],

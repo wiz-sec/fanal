@@ -8,8 +8,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "binutils-libs",
@@ -20,8 +19,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "ncurses-dev",
@@ -32,8 +30,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "python2",
@@ -44,8 +41,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libressl2.6-libcrypto",
@@ -56,8 +52,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "cyrus-sasl",
@@ -68,8 +63,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libgcc",
@@ -80,8 +74,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "dpkg-dev",
@@ -92,8 +85,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "mpc1",
@@ -104,8 +96,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "dpkg",
@@ -116,8 +107,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libacl",
@@ -128,8 +118,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "musl-dev",
@@ -140,8 +129,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "ncurses-terminfo",
@@ -152,8 +140,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libunistring",
@@ -164,8 +151,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "db",
@@ -176,8 +162,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libressl-dev",
@@ -188,8 +173,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "npth",
@@ -200,8 +184,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "pcre2",
@@ -212,8 +195,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "zlib",
@@ -224,8 +206,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "busybox",
@@ -236,8 +217,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "nettle",
@@ -248,8 +228,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libtasn1",
@@ -260,8 +239,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libstdc++",
@@ -272,8 +250,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libressl2.6-libssl",
@@ -284,8 +261,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "xz",
@@ -296,8 +272,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "gnutls",
@@ -308,8 +283,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "file",
@@ -320,8 +294,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libffi",
@@ -332,8 +305,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "ncurses-libs",
@@ -344,8 +316,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "gdbm",
@@ -356,8 +327,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libgcrypt",
@@ -368,8 +338,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "g++",
@@ -380,8 +349,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "mercurial",
@@ -392,8 +360,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "zlib-dev",
@@ -404,8 +371,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "pkgconf",
@@ -416,8 +382,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "isl",
@@ -428,8 +393,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libmagic",
@@ -440,8 +404,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "xz-libs",
@@ -452,8 +415,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "ncurses",
@@ -464,8 +426,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "ncurses-terminfo-base",
@@ -476,8 +437,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libassuan",
@@ -488,8 +448,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "subversion-libs",
@@ -500,8 +459,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libressl2.6-libtls",
@@ -512,8 +470,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libldap",
@@ -524,8 +481,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "gmp",
@@ -536,8 +492,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libbz2",
@@ -548,8 +503,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libc-dev",
@@ -560,8 +514,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "binutils",
@@ -572,8 +525,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libsodium-dev",
@@ -584,8 +536,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "musl",
@@ -596,8 +547,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "pinentry",
@@ -608,8 +558,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "openldap",
@@ -620,8 +569,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libedit-dev",
@@ -632,8 +580,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "bash",
@@ -644,8 +591,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "apr",
@@ -656,8 +602,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "ca-certificates",
@@ -668,8 +613,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libcap",
@@ -680,8 +624,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libedit",
@@ -692,8 +635,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "acl",
@@ -704,8 +646,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libsasl",
@@ -716,8 +657,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "gnupg",
@@ -728,8 +668,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "readline",
@@ -740,8 +679,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "apr-util",
@@ -752,8 +690,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "patch",
@@ -764,8 +701,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libsodium",
@@ -776,8 +712,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "mpfr3",
@@ -788,8 +723,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libattr",
@@ -800,8 +734,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "attr",
@@ -812,8 +745,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "make",
@@ -824,8 +756,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "serf",
@@ -836,8 +767,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libressl",
@@ -848,8 +778,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libksba",
@@ -860,8 +789,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "bzip2",
@@ -872,8 +800,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libgomp",
@@ -884,8 +811,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libatomic",
@@ -896,8 +822,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "re2c",
@@ -908,8 +833,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "coreutils",
@@ -920,8 +844,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "expat",
@@ -932,8 +855,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "libgpg-error",
@@ -944,8 +866,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "p11-kit",
@@ -956,8 +877,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "gcc",
@@ -968,8 +888,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "autoconf",
@@ -980,8 +899,7 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   },
   {
     "Name": "subversion",
@@ -992,7 +910,6 @@
     "SrcName": "",
     "SrcVersion": "",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":""
+    "SrcEpoch": 0
   }
 ]

@@ -8,8 +8,7 @@
     "SrcName": "dash",
     "SrcVersion": "0.5.8-2.10",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "passwd",
@@ -20,8 +19,7 @@
     "SrcName": "shadow",
     "SrcVersion": "1:4.5-1ubuntu2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "liblz4-1",
@@ -32,8 +30,7 @@
     "SrcName": "lz4",
     "SrcVersion": "0.0~r131-2ubuntu3",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libgcrypt20",
@@ -44,8 +41,7 @@
     "SrcName": "libgcrypt20",
     "SrcVersion": "1.8.1-4ubuntu1.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libfdisk1",
@@ -56,8 +52,7 @@
     "SrcName": "util-linux",
     "SrcVersion": "2.31.1-0.4ubuntu3.3",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "coreutils",
@@ -68,8 +63,7 @@
     "SrcName": "coreutils",
     "SrcVersion": "8.28-1ubuntu1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "tar",
@@ -80,8 +74,7 @@
     "SrcName": "tar",
     "SrcVersion": "1.29b-2ubuntu0.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "ncurses-base",
@@ -92,8 +85,7 @@
     "SrcName": "ncurses",
     "SrcVersion": "6.1-1ubuntu1.18.04",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libapt-pkg5.0",
@@ -104,8 +96,7 @@
     "SrcName": "apt",
     "SrcVersion": "1.6.11",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "bash",
@@ -116,8 +107,7 @@
     "SrcName": "bash",
     "SrcVersion": "4.4.18-2ubuntu1.2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "zlib1g",
@@ -128,8 +118,7 @@
     "SrcName": "zlib",
     "SrcVersion": "1:1.2.11.dfsg-0ubuntu2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "gzip",
@@ -140,8 +129,7 @@
     "SrcName": "gzip",
     "SrcVersion": "1.6-5ubuntu1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "bzip2",
@@ -152,8 +140,7 @@
     "SrcName": "bzip2",
     "SrcVersion": "1.0.6-8.1ubuntu0.2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libhogweed4",
@@ -164,8 +151,7 @@
     "SrcName": "nettle",
     "SrcVersion": "3.4-1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "diffutils",
@@ -176,8 +162,7 @@
     "SrcName": "diffutils",
     "SrcVersion": "1:3.6-1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libncursesw5",
@@ -188,8 +173,7 @@
     "SrcName": "ncurses",
     "SrcVersion": "6.1-1ubuntu1.18.04",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "hostname",
@@ -200,8 +184,7 @@
     "SrcName": "hostname",
     "SrcVersion": "3.20",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libselinux1",
@@ -212,8 +195,7 @@
     "SrcName": "libselinux",
     "SrcVersion": "2.7-2build2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libpam0g",
@@ -224,8 +206,7 @@
     "SrcName": "pam",
     "SrcVersion": "1.1.8-3.6ubuntu2.18.04.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libnettle6",
@@ -236,8 +217,7 @@
     "SrcName": "nettle",
     "SrcVersion": "3.4-1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libgnutls30",
@@ -248,8 +228,7 @@
     "SrcName": "gnutls28",
     "SrcVersion": "3.5.18-1ubuntu1.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libc6",
@@ -260,8 +239,7 @@
     "SrcName": "glibc",
     "SrcVersion": "2.27-3ubuntu1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libc-bin",
@@ -272,8 +250,7 @@
     "SrcName": "glibc",
     "SrcVersion": "2.27-3ubuntu1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "dpkg",
@@ -284,8 +261,7 @@
     "SrcName": "dpkg",
     "SrcVersion": "1.19.0.5ubuntu2.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libgcc1",
@@ -296,8 +272,7 @@
     "SrcName": "gcc-8",
     "SrcVersion": "8.3.0-6ubuntu1~18.04.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "util-linux",
@@ -308,8 +283,7 @@
     "SrcName": "util-linux",
     "SrcVersion": "2.31.1-0.4ubuntu3.3",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "base-passwd",
@@ -320,8 +294,7 @@
     "SrcName": "base-passwd",
     "SrcVersion": "3.5.44",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "bsdutils",
@@ -332,8 +305,7 @@
     "SrcName": "util-linux",
     "SrcVersion": "2.31.1-0.4ubuntu3.3",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libgpg-error0",
@@ -344,8 +316,7 @@
     "SrcName": "libgpg-error",
     "SrcVersion": "1.27-6",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "gcc-8-base",
@@ -356,8 +327,7 @@
     "SrcName": "gcc-8",
     "SrcVersion": "8.3.0-6ubuntu1~18.04.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "ncurses-bin",
@@ -368,8 +338,7 @@
     "SrcName": "ncurses",
     "SrcVersion": "6.1-1ubuntu1.18.04",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libudev1",
@@ -380,8 +349,7 @@
     "SrcName": "systemd",
     "SrcVersion": "237-3ubuntu10.25",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libuuid1",
@@ -392,8 +360,7 @@
     "SrcName": "util-linux",
     "SrcVersion": "2.31.1-0.4ubuntu3.3",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libsystemd0",
@@ -404,8 +371,7 @@
     "SrcName": "systemd",
     "SrcVersion": "237-3ubuntu10.25",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libbz2-1.0",
@@ -416,8 +382,7 @@
     "SrcName": "bzip2",
     "SrcVersion": "1.0.6-8.1ubuntu0.2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "init-system-helpers",
@@ -428,8 +393,7 @@
     "SrcName": "init-system-helpers",
     "SrcVersion": "1.51",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "apt",
@@ -440,8 +404,7 @@
     "SrcName": "apt",
     "SrcVersion": "1.6.11",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "ubuntu-keyring",
@@ -452,8 +415,7 @@
     "SrcName": "ubuntu-keyring",
     "SrcVersion": "2018.09.18.1~18.04.0",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "grep",
@@ -464,8 +426,7 @@
     "SrcName": "grep",
     "SrcVersion": "3.1-2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "debianutils",
@@ -476,8 +437,7 @@
     "SrcName": "debianutils",
     "SrcVersion": "4.8.4",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libdb5.3",
@@ -488,8 +448,7 @@
     "SrcName": "db5.3",
     "SrcVersion": "5.3.28-13.1ubuntu1.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "gpgv",
@@ -500,8 +459,7 @@
     "SrcName": "gnupg2",
     "SrcVersion": "2.2.4-1ubuntu1.2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "mount",
@@ -512,8 +470,7 @@
     "SrcName": "util-linux",
     "SrcVersion": "2.31.1-0.4ubuntu3.3",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libtasn1-6",
@@ -524,8 +481,7 @@
     "SrcName": "libtasn1-6",
     "SrcVersion": "4.13-2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "adduser",
@@ -536,8 +492,7 @@
     "SrcName": "adduser",
     "SrcVersion": "3.116ubuntu1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libcom-err2",
@@ -548,8 +503,7 @@
     "SrcName": "e2fsprogs",
     "SrcVersion": "1.44.1-1ubuntu1.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libaudit1",
@@ -560,8 +514,7 @@
     "SrcName": "audit",
     "SrcVersion": "1:2.8.2-1ubuntu1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libpcre3",
@@ -572,8 +525,7 @@
     "SrcName": "pcre3",
     "SrcVersion": "2:8.39-9",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "base-files",
@@ -584,8 +536,7 @@
     "SrcName": "base-files",
     "SrcVersion": "10.1ubuntu2.6",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libss2",
@@ -596,8 +547,7 @@
     "SrcName": "e2fsprogs",
     "SrcVersion": "1.44.1-1ubuntu1.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "debconf",
@@ -608,8 +558,7 @@
     "SrcName": "debconf",
     "SrcVersion": "1.5.66ubuntu1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libzstd1",
@@ -620,8 +569,7 @@
     "SrcName": "libzstd",
     "SrcVersion": "1.3.3+dfsg-2ubuntu1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "procps",
@@ -632,8 +580,7 @@
     "SrcName": "procps",
     "SrcVersion": "2:3.3.12-3ubuntu1.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libffi6",
@@ -644,8 +591,7 @@
     "SrcName": "libffi",
     "SrcVersion": "3.2.1-8",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libacl1",
@@ -656,8 +602,7 @@
     "SrcName": "acl",
     "SrcVersion": "2.2.52-3build1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libsemanage1",
@@ -668,8 +613,7 @@
     "SrcName": "libsemanage",
     "SrcVersion": "2.7-2build2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libdebconfclient0",
@@ -680,8 +624,7 @@
     "SrcName": "cdebconf",
     "SrcVersion": "0.213ubuntu1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libstdc++6",
@@ -692,8 +635,7 @@
     "SrcName": "gcc-8",
     "SrcVersion": "8.3.0-6ubuntu1~18.04.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libmount1",
@@ -704,8 +646,7 @@
     "SrcName": "util-linux",
     "SrcVersion": "2.31.1-0.4ubuntu3.3",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "login",
@@ -716,8 +657,7 @@
     "SrcName": "shadow",
     "SrcVersion": "1:4.5-1ubuntu2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libncurses5",
@@ -728,8 +668,7 @@
     "SrcName": "ncurses",
     "SrcVersion": "6.1-1ubuntu1.18.04",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libattr1",
@@ -740,8 +679,7 @@
     "SrcName": "attr",
     "SrcVersion": "1:2.4.47-2build1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "e2fsprogs",
@@ -752,8 +690,7 @@
     "SrcName": "e2fsprogs",
     "SrcVersion": "1.44.1-1ubuntu1.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libsepol1",
@@ -764,8 +701,7 @@
     "SrcName": "libsepol",
     "SrcVersion": "2.7-1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libpam-runtime",
@@ -776,8 +712,7 @@
     "SrcName": "pam",
     "SrcVersion": "1.1.8-3.6ubuntu2.18.04.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libunistring2",
@@ -788,8 +723,7 @@
     "SrcName": "libunistring",
     "SrcVersion": "0.9.9-0ubuntu2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libprocps6",
@@ -800,8 +734,7 @@
     "SrcName": "procps",
     "SrcVersion": "2:3.3.12-3ubuntu1.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "sensible-utils",
@@ -812,8 +745,7 @@
     "SrcName": "sensible-utils",
     "SrcVersion": "0.0.12",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libsemanage-common",
@@ -824,8 +756,7 @@
     "SrcName": "libsemanage",
     "SrcVersion": "2.7-2build2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "sed",
@@ -836,8 +767,7 @@
     "SrcName": "sed",
     "SrcVersion": "4.4-2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libsmartcols1",
@@ -848,8 +778,7 @@
     "SrcName": "util-linux",
     "SrcVersion": "2.31.1-0.4ubuntu3.3",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "perl-base",
@@ -860,8 +789,7 @@
     "SrcName": "perl",
     "SrcVersion": "5.26.1-6ubuntu0.3",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "liblzma5",
@@ -872,8 +800,7 @@
     "SrcName": "xz-utils",
     "SrcVersion": "5.2.2-1.3",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "lsb-base",
@@ -884,8 +811,7 @@
     "SrcName": "lsb",
     "SrcVersion": "9.20170808ubuntu1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libpam-modules",
@@ -896,8 +822,7 @@
     "SrcName": "pam",
     "SrcVersion": "1.1.8-3.6ubuntu2.18.04.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libaudit-common",
@@ -908,8 +833,7 @@
     "SrcName": "audit",
     "SrcVersion": "1:2.8.2-1ubuntu1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "findutils",
@@ -920,8 +844,7 @@
     "SrcName": "findutils",
     "SrcVersion": "4.6.0+git+20170828-2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libcap-ng0",
@@ -932,8 +855,7 @@
     "SrcName": "libcap-ng",
     "SrcVersion": "0.7.7-3.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "fdisk",
@@ -944,8 +866,7 @@
     "SrcName": "util-linux",
     "SrcVersion": "2.31.1-0.4ubuntu3.3",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libidn2-0",
@@ -956,8 +877,7 @@
     "SrcName": "libidn2",
     "SrcVersion": "2.0.4-1.1build2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libblkid1",
@@ -968,8 +888,7 @@
     "SrcName": "util-linux",
     "SrcVersion": "2.31.1-0.4ubuntu3.3",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libgmp10",
@@ -980,8 +899,7 @@
     "SrcName": "gmp",
     "SrcVersion": "2:6.1.2+dfsg-2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libseccomp2",
@@ -992,8 +910,7 @@
     "SrcName": "libseccomp",
     "SrcVersion": "2.4.1-0ubuntu0.18.04.2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libtinfo5",
@@ -1004,8 +921,7 @@
     "SrcName": "ncurses",
     "SrcVersion": "6.1-1ubuntu1.18.04",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libpam-modules-bin",
@@ -1016,8 +932,7 @@
     "SrcName": "pam",
     "SrcVersion": "1.1.8-3.6ubuntu2.18.04.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "mawk",
@@ -1028,8 +943,7 @@
     "SrcName": "mawk",
     "SrcVersion": "1.3.3-17ubuntu3",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "sysvinit-utils",
@@ -1040,8 +954,7 @@
     "SrcName": "sysvinit",
     "SrcVersion": "2.88dsf-59.10ubuntu1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libp11-kit0",
@@ -1052,8 +965,7 @@
     "SrcName": "p11-kit",
     "SrcVersion": "0.23.9-2",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   },
   {
     "Name": "libext2fs2",
@@ -1064,7 +976,6 @@
     "SrcName": "e2fsprogs",
     "SrcVersion": "1.44.1-1ubuntu1.1",
     "SrcRelease": "",
-    "SrcEpoch":0,
-    "LayerID":"sha256:6cebf3abed5fac58d2e792ce8461454e92c245d5312c42118f02e231a73b317f"
+    "SrcEpoch": 0
   }
 ]
