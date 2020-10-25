@@ -16,6 +16,10 @@ import (
 func WalkDir(root string, f WalkFunc) error {
 	// walk function called for every path found
 	walkFn := func(pathname string, fi os.FileInfo) error {
+		if !fi.Mode().IsRegular() && !fi.Mode().IsDir() {
+			return nil
+		}
+
 		if isIgnored(pathname) {
 			return filepath.SkipDir
 		}
@@ -28,8 +32,8 @@ func WalkDir(root string, f WalkFunc) error {
 
 	// error function called for every error encountered
 	errorCallbackOption := walker.WithErrorCallback(func(pathname string, err error) error {
-		// ignore permission errors, not exist errors
-		if os.IsPermission(err) || os.IsNotExist(err) {
+		// ignore permission errors
+		if os.IsPermission(err) {
 			return nil
 		}
 		// halt traversal on any other error
