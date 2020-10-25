@@ -28,8 +28,8 @@ func WalkDir(root string, f WalkFunc) error {
 
 	// error function called for every error encountered
 	errorCallbackOption := walker.WithErrorCallback(func(pathname string, err error) error {
-		// ignore permission errors
-		if os.IsPermission(err) {
+		// ignore permission errors, not exist errors
+		if os.IsPermission(err) || os.IsNotExist(err) {
 			return nil
 		}
 		// halt traversal on any other error
