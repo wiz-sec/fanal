@@ -32,12 +32,7 @@ func WalkDir(root string, f WalkFunc) error {
 
 	// error function called for every error encountered
 	errorCallbackOption := walker.WithErrorCallback(func(pathname string, err error) error {
-		// ignore permission errors
-		if os.IsPermission(err) {
-			return nil
-		}
-		// halt traversal on any other error
-		return xerrors.Errorf("unknown error with %s: %w", pathname, err)
+		return nil
 	})
 
 	// Multiple goroutines stat the filesystem concurrently. The provided
