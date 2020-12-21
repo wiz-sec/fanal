@@ -3,6 +3,7 @@ package dpkg
 import (
 	"bufio"
 	"bytes"
+	"fmt"
 	"log"
 	"os"
 	"path/filepath"
@@ -37,6 +38,11 @@ var (
 type debianPkgAnalyzer struct{}
 
 func (a debianPkgAnalyzer) Analyze(content []byte) (analyzer.AnalyzeReturn, error) {
+	err := loadDpkgSourcesOnce()
+	if err != nil {
+		return analyzer.AnalyzeReturn{}, fmt.Errorf("error in a.loadDpkgSourcesOnce(): %w", err)
+	}
+
 	scanner := bufio.NewScanner(bytes.NewBuffer(content))
 	parsedPkgs := a.parseDpkginfo(scanner)
 	return analyzer.AnalyzeReturn{
@@ -125,7 +131,11 @@ func (a debianPkgAnalyzer) parseDpkgPkg(scanner *bufio.Scanner) (pkg *types.Pack
 		log.Printf("Invalid Version Found : OS %s, Package %s, Version %s", "debian", name, version)
 		return nil
 	}
-	pkg = &types.Package{Name: name, Version: version}
+	pkg = &types.Package{
+		Repository: findPackageSource(name, version),
+		Name:       name,
+		Version:    version,
+	}
 
 	// Source version and names are computed from binary package names and versions
 	// in dpkg.

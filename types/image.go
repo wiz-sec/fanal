@@ -26,6 +26,7 @@ type Package struct {
 	SrcVersion string `json:",omitempty"`
 	SrcRelease string `json:",omitempty"`
 	SrcEpoch   int    `json:",omitempty"`
+	Repository string `json:",omitempty"`
 	Layer      Layer  `json:",omitempty"`
 }
 
