@@ -17,17 +17,18 @@ type Layer struct {
 }
 
 type Package struct {
-	Name       string `json:",omitempty"`
-	Version    string `json:",omitempty"`
-	Release    string `json:",omitempty"`
-	Epoch      int    `json:",omitempty"`
-	Arch       string `json:",omitempty"`
-	SrcName    string `json:",omitempty"`
-	SrcVersion string `json:",omitempty"`
-	SrcRelease string `json:",omitempty"`
-	SrcEpoch   int    `json:",omitempty"`
-	Repository string `json:",omitempty"`
-	Layer      Layer  `json:",omitempty"`
+	Name            string `json:",omitempty"`
+	Version         string `json:",omitempty"`
+	Release         string `json:",omitempty"`
+	Epoch           int    `json:",omitempty"`
+	Arch            string `json:",omitempty"`
+	SrcName         string `json:",omitempty"`
+	SrcVersion      string `json:",omitempty"`
+	SrcRelease      string `json:",omitempty"`
+	SrcEpoch        int    `json:",omitempty"`
+	Repository      string `json:",omitempty"`
+	Modularitylabel string `json:",omitempty"`
+	Layer           Layer  `json:",omitempty"`
 }
 
 type SrcPackage struct {
@@ -54,9 +55,11 @@ type Application struct {
 
 // ArtifactReference represents a reference of container image, local filesystem and repository
 type ArtifactReference struct {
-	Name    string // image name, tar file name, directory or repository name
-	ID      string
-	BlobIDs []string
+	Name        string // image name, tar file name, directory or repository name
+	ID          string
+	BlobIDs     []string
+	RepoTags    []string
+	RepoDigests []string
 }
 
 // ArtifactInfo is stored in cache
