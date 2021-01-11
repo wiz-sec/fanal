@@ -105,11 +105,25 @@ func splitFileName(filename string) (name, ver, rel string) {
 	}
 
 	archIndex := strings.LastIndex(filename, ".")
+	if archIndex == -1 {
+		return "", "", ""
+	}
 
 	relIndex := strings.LastIndex(filename[:archIndex], "-")
+	if relIndex == -1 {
+		return "", "", ""
+	}
+
 	rel = filename[relIndex+1 : archIndex]
 
 	verIndex := strings.LastIndex(filename[:relIndex], "-")
+	if verIndex == -1 {
+		return "", "", ""
+	}
+	if verIndex+1 > relIndex {
+		return "", "", ""
+	}
+
 	ver = filename[verIndex+1 : relIndex]
 
 	name = filename[:verIndex]
