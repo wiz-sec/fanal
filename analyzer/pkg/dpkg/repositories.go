@@ -11,11 +11,13 @@ import (
 	"sync"
 
 	"github.com/aquasecurity/fanal/types"
+	mapset "github.com/deckarep/golang-set"
 )
 
 type repositories struct {
 	*sync.Mutex
-	sources map[string][]string
+	// package name: versions: repos
+	sources map[string]map[string]mapset.Set
 }
 
 var repositoriesStatic = &repositories{Mutex: &sync.Mutex{}}
@@ -48,7 +50,7 @@ func loadDpkgSourcesOnce() error {
 // loadDpkgSources loads Dpkg sources' packages for each repository
 func loadDpkgSources() error {
 	if repositoriesStatic.sources == nil {
-		repositoriesStatic.sources = map[string][]string{}
+		repositoriesStatic.sources = map[string]map[string]mapset.Set{}
 	}
 
 	err := filepath.Walk(sourcesFilePath, func(path string, info os.FileInfo, err error) error {
@@ -68,10 +70,23 @@ func loadDpkgSources() error {
 		repository := strings.TrimSuffix(info.Name(), sourcesPackageSuffix)
 		packages := parsePackagesFromArchive(content)
 
-		// Populates a map containing (package+version): repositories
+		// Append a repository for each package's version
 		for _, p := range packages {
-			id := packageIdentifierBuilder(p.Name, p.Version)
-			repositoriesStatic.sources[id] = append(repositoriesStatic.sources[id], repository)
+			// Get versions map
+			versionReposMap, ok := repositoriesStatic.sources[p.Name]
+			if !ok {
+				versionReposMap = map[string]mapset.Set{}
+				repositoriesStatic.sources[p.Name] = versionReposMap
+			}
+
+			// Get repositories set
+			reposSet, ok := versionReposMap[p.Version]
+			if !ok {
+				reposSet = mapset.NewSet()
+				versionReposMap[p.Version] = reposSet
+			}
+
+			reposSet.Add(repository)
 		}
 
 		return nil
@@ -129,17 +144,45 @@ func parsePackage(scanner *bufio.Scanner) *types.Package {
 	return &pkg
 }
 
-// findPackageSource searches each source for given package name and version
-// Returns the source name if a match is found
+const unknownRepository = "Unknown"
+
+// findPackageSource searches each repo's source for given package name and version
+// Returns the repo's source name if a match is found
 func findPackageSource(name, version string) string {
-	repos := repositoriesStatic.sources[packageIdentifierBuilder(name, version)]
-	if len(repos) == 0 {
-		return "Unknown"
+	versionReposMap, ok := repositoriesStatic.sources[name]
+	// Check if the package or versions are missing
+	if !ok || len(versionReposMap) == 0 {
+		return unknownRepository
 	}
 
-	return strings.Join(repos, ", ")
+	// Check if we have the exact version's repositories
+	reposSet, ok := versionReposMap[version]
+	if ok && reposSet != nil {
+		if repos := stringSetToSlice(reposSet); len(repos) > 0 {
+			return strings.Join(repos, ", ")
+		}
+	}
+
+	// If exact version's repositories are not found, extract repositories from any version
+	for _, reposSet = range versionReposMap {
+		if reposSet == nil {
+			continue
+		}
+
+		if repos := stringSetToSlice(reposSet); len(repos) > 0 {
+			return strings.Join(repos, ", ")
+		}
+	}
+
+	return unknownRepository
 }
 
-func packageIdentifierBuilder(name, version string) string {
-	return fmt.Sprintf("%s::%s", name, version)
+func stringSetToSlice(set mapset.Set) []string {
+	var slice []string
+
+	for _, elem := range set.ToSlice() {
+		slice = append(slice, elem.(string))
+	}
+
+	return slice
 }
