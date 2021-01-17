@@ -10,6 +10,7 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/aquasecurity/fanal/analyzer"
 	"github.com/aquasecurity/fanal/types"
 	mapset "github.com/deckarep/golang-set"
 )
@@ -53,7 +54,12 @@ func loadDpkgSources() error {
 		repositoriesStatic.sources = map[string]map[string]mapset.Set{}
 	}
 
-	err := filepath.Walk(sourcesFilePath, func(path string, info os.FileInfo, err error) error {
+	basePath := analyzer.GetBasePath()
+	if basePath == "" {
+		return fmt.Errorf("base path is missing")
+	}
+
+	err := filepath.Walk(filepath.Join(basePath, sourcesFilePath), func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return fmt.Errorf("walk failed, path: %s, error: %w", path, err)
 		}

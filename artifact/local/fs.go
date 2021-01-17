@@ -27,6 +27,8 @@ type Artifact struct {
 }
 
 func NewArtifact(dir string, c cache.ArtifactCache) artifact.Artifact {
+	analyzer.SetBasePath(dir)
+
 	return Artifact{
 		dir:   dir,
 		cache: c,
